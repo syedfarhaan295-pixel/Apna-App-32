@@ -1,0 +1,6 @@
+{
+  "name": "ApnaApp32 - Secure Direct App Installer for iOS & Android",
+  "description": "ApnaApp32 - Direct mobile application distribution platform to install mobile applications instantly via secure expiring links and QR codes for both iOS and Android.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

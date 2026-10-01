@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <defs>
+    <linearGradient id="bgDark" x1="0" y1="0" x2="512" y2="512" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#090d16" />
+      <stop offset="100%" stop-color="#030712" />
+    </linearGradient>
+    <linearGradient id="blueGear" x1="60" y1="120" x2="256" y2="400" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#0284c7" />
+      <stop offset="100%" stop-color="#0369a1" />
+    </linearGradient>
+    <linearGradient id="orangeGear" x1="256" y1="120" x2="452" y2="400" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#fb923c" />
+      <stop offset="50%" stop-color="#ea580c" />
+      <stop offset="100%" stop-color="#c2410c" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="512" height="512" rx="128" fill="url(#bgDark)"/>
+  <rect width="504" height="504" x="4" y="4" rx="124" stroke="#1e293b" stroke-width="8"/>
+
+  <!-- Left Blue Outer Ring -->
+  <path d="M256 70 A 186 186 0 0 0 256 442" stroke="url(#blueGear)" stroke-width="28" stroke-linecap="round" fill="none"/>
+  <!-- Right Orange Outer Ring -->
+  <path d="M256 70 A 186 186 0 0 1 256 442" stroke="url(#orangeGear)" stroke-width="28" stroke-linecap="round" fill="none"/>
+
+  <!-- Inner Gear Ring Teeth Accents -->
+  <circle cx="256" cy="256" r="140" stroke="#334155" stroke-width="6" stroke-dasharray="16 12"/>
+
+  <!-- The Stylized Number 32 in Center -->
+  <!-- 3 in Blue Metallic -->
+  <path d="M190 180 Q250 180 240 230 Q254 280 190 280 M240 230 L210 230" stroke="url(#blueGear)" stroke-width="26" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  
+  <!-- 2 in Orange Metallic with Arrow -->
+  <path d="M272 195 Q330 180 330 220 Q330 250 270 280 L334 280" stroke="url(#orangeGear)" stroke-width="26" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+
+  <!-- Bottom APNA APP Banner -->
+  <g transform="translate(146, 320)">
+    <!-- Blue Left half -->
+    <path d="M0 0 L110 0 L110 44 L0 44 Z" fill="#0284c7" rx="10"/>
+    <text x="55" y="28" fill="#ffffff" font-family="'Plus Jakarta Sans', sans-serif" font-size="19" font-weight="900" text-anchor="middle" letter-spacing="1">APNA</text>
+    
+    <!-- Orange Right half -->
+    <path d="M110 0 L220 0 L220 44 L110 44 Z" fill="#ea580c" rx="10"/>
+    <text x="165" y="28" fill="#ffffff" font-family="'Plus Jakarta Sans', sans-serif" font-size="19" font-weight="900" text-anchor="middle" letter-spacing="1">APP</text>
+  </g>
+</svg>
